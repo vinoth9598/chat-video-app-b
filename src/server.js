@@ -10,7 +10,7 @@ import authRouter from "./routes/auth.js" ;
 import userRouter from "./routes/user.route.js" ;
 import chatRouter from "./routes/chat.route.js" ;
 
-const port = process.env.port
+const port = process.env.PORT
 const MONGODB_URI = process.env.MONGODB_URI 
 //middleware 
 app.use(cors({
